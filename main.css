@@ -1,0 +1,95 @@
+/* Start: Zero out everything. */
+html,body,div,h1,h2,h3,h4,h5,h6,pre,code,td,em,p {
+  font:normal normal normal 12px Arial, Helvetica, Verdana, sans-serif;
+  color:black;
+  margin:0px;
+  padding:0px;
+  border:0px;
+}
+
+h1,h2,h3,h4,h5,h6,pre,code,td,em,p {
+  font:inherit;
+  margin:0px;
+  padding:0px;
+  border:0px;
+}
+
+em {
+  font-style:italic;
+}
+
+ul,ol {
+  list-style:none;
+}
+
+a {
+  outline: none;
+  border:none;
+}
+
+a img,:link img,:visited img,fieldset {
+  border:none;
+}
+/* End: Zero out everything. */
+
+body {
+  background-color:#474747;
+  background-image:url('bg.png');
+}
+
+h1 { padding:1.2em 0 0.875em 0; font-size:22px; }
+
+h2 { padding:1.2em 0 0.875em 0; font-size:18px; }
+
+h3 { padding:1em 0 0.875em 0; font-size:16px; }
+
+h4 { padding:1em 0 0.875em 0; font-size:14px; font-weight:bold; }
+
+h5 { padding:0.875em 0 0.875em 0; font-size:14px; }
+
+h6 { padding:0.875em 0 0.875em 0; font-size:12px; font-weight:bold; }
+
+p +p { padding: 0.875em 0 0.875em 0; }
+
+div#pagetitle {
+  background-image:url('tbg.png');
+  background-repeat:no-repeat;
+  background-position:top center;
+  width:738px;
+  height:68px;
+  margin:0 auto;
+  margin-top:11px;
+}
+
+img#pezad {
+  margin-top:7px;
+  margin-left:38px;
+}
+
+div#body {
+  background-color:#FFFFFF;
+  background-image:url('bbg.png');
+  background-repeat:repeat-y;
+  background-position:top center;
+  width:738px;
+  margin:0 auto;
+}
+
+div#bodyend {
+  background-image:url('bbgb.png');
+  background-repeat:no-repeat;
+  background-position:top center;
+  width:738px;
+  height:8px;
+  margin:0 auto;
+}
+
+div#content {
+  margin-left: 258px;
+  padding: 0 3.5em 3em 2.5em;
+}
+
+a:link { color:#00319f; }
+a:visited { color:#6d0091; }
+a:active { color:#910000; }
+a:hover { color:#004eff; }
